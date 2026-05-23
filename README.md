@@ -41,7 +41,7 @@ Crate can still play music without `ffmpeg`; waveform generation will be unavail
 ## Install / run
 
 ```sh
-git clone <repo-url>
+git clone https://github.com/annbjer/crate.git
 cd crate
 npm install
 npm run typecheck
