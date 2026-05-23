@@ -1,0 +1,26 @@
+# local config / secrets
+.env
+.env.*
+*.local
+config.local.json
+crate.config.json
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# local cache/config
+.cache/
+.config/
+
+# build/test output
+dist/
+coverage/
+
+# dependencies
+node_modules/
+
+# macOS
+.DS_Store

@@ -1,0 +1,22 @@
+{
+  "name": "crate",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local-first terminal music player prototype for macOS.",
+  "scripts": {
+    "start": "tsx src/index.tsx",
+    "test:redraw": "tsx src/dev/runRedrawTest.tsx",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "ink": "^5.2.1",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^18.3.20",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
